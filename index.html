@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <div id='container'>
+
+        </div>
+        <script type="text/javascript">
+            const container = document.querySelector("#container");
+            //javText constant
+                const javText = document.createElement('p');
+                javText.textContent = 'Hey, i`m RED !' ;
+                javText.style['color'] = 'red' ;
+                container.appendChild(javText) ;
+            //javTitle constant
+                const javTitle = document.createElement('h3');
+                javTitle.textContent = 'I`m a sad blue h3' ;
+                javTitle.style['color'] = 'blue' ;
+                container.appendChild(javTitle) ;
+            //jadDiv contant
+                const javDiv = document.createElement('div');
+                javDiv.style['border'] = 'solid black 3px' ;
+                javDiv.style['background'] = 'pink' ;
+                container.appendChild(javDiv) ;
+                //javH1 constant
+                    const javH1 = document.createElement('h1');
+                    javH1.textContent = 'i`m in a Div.';
+                    javDiv.appendChild(javH1);
+                //javP constant
+                    const javP = document.createElement('p');
+                    javP.textContent = 'Me too!' ;
+                    javDiv.appendChild(javP);
+        </script>
+    </body>
+</html>

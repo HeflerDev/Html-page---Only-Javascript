@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>WebPage Title</h1>
+        <div id='container'>
+
+        </div>
+        <script type="text/javascript">
+            //Get the first element that matches with the ID 'container'        //
+            const container = document.querySelector('#container');
+            //Create a const that store the 'div' element                       //
+            const content = document.createElement('div');
+            //Adds an class to the div, wich is linked to content               //
+            content.classList.add('content');
+            //Adds a text content to the 'div', wich ins linket to content      //
+            content.textContent = 'This is the Glorious text-content';
+            //Append the 'div', wich is linked to 'content', to the container   //
+            container.appendChild(content);
+        </script>
+    </body>
+</html>
